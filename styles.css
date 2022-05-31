@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    font-family:sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 2.5rem;
+    color: rgb(98,141,234);
+}
+
+.link-group{
+    display: flex;
+    position: relative;
+    right: 3rem;
+    width: 100%;
+    justify-content: end;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#button{
+    position: relative;
+    top: 10px;
+    background-color: #2DD35C;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding:10px;
+}
